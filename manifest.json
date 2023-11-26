@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "badminton",
+    "version": "0.1",
+    "description": "badmintonHooker",
+    "icons": {
+        "16": "images/elaina.png",
+        "48": "images/elaina.png",
+        "128": "images/elaina.png"
+    },
+    "permissions": [
+        "storage",
+        "webRequest",
+        "activeTab",
+        "notifications"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon":  "images/elaina.png",
+        "default_title": "badmintonHooker"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://gym.tongji.edu.cn/*"
+            ],
+            "js": [
+                "js/jquery-1.8.3.js",
+                "js/worker.js",
+                "js/load.js"
+            ]
+        }
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
