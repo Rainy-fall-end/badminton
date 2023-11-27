@@ -1,7 +1,7 @@
 const heartInteral = 1000;
 var date = "周三";
 const loaction = "嘉定体育中心羽毛球场地";
-const time = "00";
+const time = "18";
 const partner = "2330397";
 const Status = {
     noPlace : 0,
@@ -63,6 +63,7 @@ function scan()
         selectPlace(loaction,i);
         return;
     }
+    selectPlace(loaction,i);
     if(statu == Status.noTime)
     {
         selectDate(date);
