@@ -26,7 +26,9 @@
             ],
             "js": [
                 "js/jquery-1.8.3.js",
-                "js/worker.js"
+                "js/check.js",
+                "js/tasks.js",
+                "js/worker2_1.js"
             ]
         }
     ],
