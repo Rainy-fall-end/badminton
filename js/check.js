@@ -1,7 +1,7 @@
 function isPlaceSelected()
 {
     let liTag = $("i.el-input__icon.el-input__validateIcon.el-icon-circle-check");
-    console.log("li+"+liTag.length);
+    //console.log("li+"+liTag.length);
     if(liTag.length>0)
     {
         return true;
@@ -20,7 +20,7 @@ function existValidTime()
 function isTimeSelected()
 {
     let labelTag = $("label.el-radio.is-bordered.is-checked");
-    console.log(labelTag);
+    //console.log(labelTag);
     if(labelTag.length>1)
     {
         return true;

@@ -1,4 +1,3 @@
-
 function selectPlace(location,i)
 {
     let liElements = $("li.el-select-dropdown__item, li.el-select-dropdown__item.hover");

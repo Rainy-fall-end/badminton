@@ -1,8 +1,9 @@
-const heartInteral = 1000;
+var heartInteral = 1000;
 var date = "周三";
 const loaction = "嘉定体育中心羽毛球场地";
 const time = "18";
 const partner = "2330397";
+var refreshTime = 60;
 const Status = {
     noPlace : 0,
     noDate : 1,
@@ -13,6 +14,8 @@ const Status = {
 }
 var statu = Status.noPlace;
 var i = 1;
+var d = new Date();
+
 function getRandomTime()
 {
     // 生成介于 3 和 5 之间的随机数（包括 3 和 5）
@@ -91,15 +94,15 @@ function updateI()
     }
 }
 $(document).ready(function(){
+    d = new Date();
     getRandomTime();
     console.log(date);
     setInterval(function(){
         updateStatus();
         scan();
-        console.log(statu);
+        console.log("statu:"+statu);
         updateI();
+        console.log("Pass time"+getPassTime(d));
     },heartInteral);
-    setTimeout(function(){
-        location.reload();
-    },60*1000);
+    refresh();
 });
