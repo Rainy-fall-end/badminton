@@ -20,20 +20,17 @@
         "default_icon":  "images/elaina.png",
         "default_title": "badmintonHooker"
     },
-    "background": {
-        "service_worker": "js/background.js"
-      },
     "content_scripts": [
         {
             "matches": [
-                "*://gym.tongji.edu.cn/*"
+                "*://stadium.tongji.edu.cn/*"
             ],
             "js": [
                 "js/jquery-1.8.3.js",
-                "js/check.js",
-                "js/tasks.js",
-                "js/worker2_1.js",
-                "js/time.js"
+                "js/func.js",
+                "js/worker.js",
+                "js/worker1.js",
+                "js/save_load.js"
             ]
         }
     ],
