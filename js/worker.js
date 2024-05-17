@@ -23,7 +23,6 @@ $(window).on("load",setTimeout(function () {
                 },200);
             },200);
         });
-        
     }
 }
 ,500));
