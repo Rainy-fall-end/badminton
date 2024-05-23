@@ -20,7 +20,7 @@
 点击本扩展程序：
 ![](http://lc-JBwIbAN4.cn-n1.lcfile.com/HNKhp5Qdcd808VX9S3USeCaUiYAvkrnw/3.png)
 配置想抢的时间(所有时间都支持，比如早上9-10可以输入4)：
-![]([pics\4.png](http://lc-JBwIbAN4.cn-n1.lcfile.com/idTqSbcG3e3LlMk7nhGkkX5FIzy2ivY3/4.png))
+![](http://lc-JBwIbAN4.cn-n1.lcfile.com/idTqSbcG3e3LlMk7nhGkkX5FIzy2ivY3/4.png)
 ## 4.使用说明：
 由于需要登陆，最好提前3-5分钟登录网站：[同济大学体育场馆预约系统](https://stadium.tongji.edu.cn/pc/#/)，太早的话登录会失效。接着到达想抢的界面：
 ![](http://lc-JBwIbAN4.cn-n1.lcfile.com/EPkwSCFTwHxTQR2gHLX8rCTI8nCcpuIi/5.png)
