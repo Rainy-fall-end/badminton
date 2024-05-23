@@ -33,7 +33,11 @@
 
 ## 5.其他：
 作者本身不写js，纯cpp选手，代码写的很烂，仅供参考
+
 此为开源软件，完全免费，联系作者：
+
 微信：rainy_start
+
 邮箱：rainy.autumn.fall@gmail.com
+
 欢迎提pr和issue
