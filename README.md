@@ -17,8 +17,10 @@
 ## 3.配置插件：
 在输入url的右侧，点击扩展程序，打开所有的扩展程序栏：
 ![](http://lc-JBwIbAN4.cn-n1.lcfile.com/x2Sb1PnKTSaRsojg3gkna2Vd6GJ9nBIJ/2.png)
+
 点击本扩展程序：
 ![](http://lc-JBwIbAN4.cn-n1.lcfile.com/HNKhp5Qdcd808VX9S3USeCaUiYAvkrnw/3.png)
+
 配置想抢的时间(所有时间都支持，比如早上9-10可以输入4)：
 ![](http://lc-JBwIbAN4.cn-n1.lcfile.com/idTqSbcG3e3LlMk7nhGkkX5FIzy2ivY3/4.png)
 ## 4.使用说明：
