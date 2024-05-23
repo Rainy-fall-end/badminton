@@ -15,7 +15,6 @@ $(window).on("load",setTimeout(function () {
                 let agree = getLabelByClass("el-checkbox")[0];
                 console.log(agree);
                 let summit = getButtonsByClass("el-button.btnStyle.el-button--primary");
-                // let frame = document.querySelector("#apointmentDetails > div.lists > div.chart > div.el-dialog__wrapper");
                 agree.click();
                 summit.click();
                 setTimeout(function(){
