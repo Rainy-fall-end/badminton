@@ -13,17 +13,17 @@
 [Edge浏览器如何打开开发者模式](https://blog.csdn.net/yisago/article/details/118754062)
 ## 2.插件安装：
 下载插件，无需解压，将压缩包拖至刚才打开开发者模式的界面（如下），即可进行安装
-![](pics\1.png)
+![](http://lc-JBwIbAN4.cn-n1.lcfile.com/S2tysi1LwscGbBqNkVSAHSGOjntvV8pQ/1.png)
 ## 3.配置插件：
 在输入url的右侧，点击扩展程序，打开所有的扩展程序栏：
-![](pics\2.png)
+![](http://lc-JBwIbAN4.cn-n1.lcfile.com/x2Sb1PnKTSaRsojg3gkna2Vd6GJ9nBIJ/2.png)
 点击本扩展程序：
-![](pics\3.png)
+![](http://lc-JBwIbAN4.cn-n1.lcfile.com/HNKhp5Qdcd808VX9S3USeCaUiYAvkrnw/3.png)
 配置想抢的时间(所有时间都支持，比如早上9-10可以输入4)：
-![](pics\4.png)
+![]([pics\4.png](http://lc-JBwIbAN4.cn-n1.lcfile.com/idTqSbcG3e3LlMk7nhGkkX5FIzy2ivY3/4.png))
 ## 4.使用说明：
 由于需要登陆，最好提前3-5分钟登录网站：[同济大学体育场馆预约系统](https://stadium.tongji.edu.cn/pc/#/)，太早的话登录会失效。接着到达想抢的界面：
-![](pics\5.png)
+![](http://lc-JBwIbAN4.cn-n1.lcfile.com/EPkwSCFTwHxTQR2gHLX8rCTI8nCcpuIi/5.png)
 刷新一次，当你发现页面开始不断刷新时（每5秒刷新一次），则代表配置成功，由于破解滑动验证码需要用到第三方api，所以本插件不进行实现，会自动走到滑动验证码验证这一步，此验证需要自己操作。
 
 ## 5.其他：
