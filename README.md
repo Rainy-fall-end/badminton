@@ -1,9 +1,14 @@
 # badminton
 使用[谷歌插件](https://support.google.com/chrome/a/answer/2714278?hl=zh-Hans)开发的羽毛球抢场助手，针对[同济大学体育场馆预约系统](https://stadium.tongji.edu.cn/pc/#/)，适用浏览器：以chrome作为内核的浏览器，如Chrome，Edge
+
 安装视频教程：
+
 [如何安装插件](https://www.bilibili.com/video/BV1zC4y127HR/)
+
 [插件效果](https://www.bilibili.com/video/BV1xK421Y7qU/)
+
 已支持：
+
 羽毛球，网球
 ## 1.环境准备：
 ### 下载并安装谷歌浏览器：
