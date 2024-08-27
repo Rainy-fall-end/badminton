@@ -4,9 +4,9 @@
     "version": "0.1",
     "description": "badmintonHooker",
     "icons": {
-        "16": "images/elaina.png",
-        "48": "images/elaina.png",
-        "128": "images/elaina.png"
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
     },
     "permissions": [
         "alarms",
@@ -17,7 +17,7 @@
     ],
     "action": {
         "default_popup": "popup.html",
-        "default_icon":  "images/elaina.png",
+        "default_icon":  "images/128.png",
         "default_title": "badmintonHooker"
     },
     "content_scripts": [

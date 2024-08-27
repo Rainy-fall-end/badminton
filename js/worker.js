@@ -2,7 +2,6 @@ $(window).on("load",setTimeout(function () {
     if(window.location.href.includes('apointmentDetails'))
     {
         chrome.storage.local.get(['time'], function(result) {
-
             console.log(result.time);
             let time = result.time==""? 13:result.time;
             selectDate();
@@ -13,7 +12,7 @@ $(window).on("load",setTimeout(function () {
                 // 15->20-21
                 selectTime(time);
                 let agree = getLabelByClass("el-checkbox")[0];
-                console.log(agree);
+                // console.log(agree);
                 let summit = getButtonsByClass("el-button.btnStyle.el-button--primary");
                 agree.click();
                 summit.click();

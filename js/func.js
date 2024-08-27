@@ -16,20 +16,6 @@ function getLabelByClass(className) {
     return  $('label.' + className);
 }
 
-function getObserver(element,func)
-{
-    let config = { attributes: true };
-    var observer_ = new MutationObserver(function(mutations) {
-        mutations.forEach(function(mutation) {
-            if (mutation.attributeName === 'style') {
-                console.log("style change");
-                func(); // 调用函数
-            }
-        });
-    });
-    observer_.observe(element, config);
-}
-
 function selectTime(time)
 {
     // 12->17-18
@@ -87,18 +73,4 @@ function selectDate()
             location.reload();
         },5000);
     }
-}
-
-function book() {
-    let order = getButtonsByClass("el-button.fr.el-button--primary.is-round");
-    order.click();
-    document.addEventListener('mouseup', function(event) {
-        setTimeout(function(){
-            if(frame.style.zIndex=="")
-            {
-                let order = getButtonsByClass("el-button.fr.el-button--primary.is-round");
-                order.click();
-            }
-        },500)
-    });
 }

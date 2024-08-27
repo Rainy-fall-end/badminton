@@ -1,38 +1,24 @@
 <!DOCTYPE html>
+<html lang="zh">
 <head>
-    <script src="js/jquery-1.8.3.js"></script>
     <meta charset="UTF-8">
     <title>yileina</title>
-    <link href="css/mystyle.css" rel=stylesheet>
-    <link href="css/bootstrap.min.css" rel=stylesheet>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-        body {
-            width: 200px;
-            height: 220px;
-        }
-        div {
-            line-height: 30px;
-            font-size: 20px;
-            text-align: center;
-        }
-        .input_item {
-            width: 60px;
-        }
-    </style>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+    <script src="js/jquery-1.8.3.js"></script>
+    <script src="js/worker.js"></script>
 </head>
 <body>
-    
-    时间：<input id="time" type="text"><br>
-    11->16-17<br>
-    12->17-18<br>
-    13->18-19<br>
-    14->19-20<br>
-    15->20-21<br>
+    <div class="container">
+        <label class="time-label">V0.1-8-27</label>
+        <label for="time" class="time-label">时间：</label>
+        <input id="time" type="text" class="time-input"><br>
+        <div class="time-range">11 -> 16-17</div>
+        <div class="time-range">12 -> 17-18</div>
+        <div class="time-range">13 -> 18-19</div>
+        <div class="time-range">14 -> 19-20</div>
+        <div class="time-range">15 -> 20-21</div>
+    </div>
     <script src="js/save_load.js"></script>
-    <script src="js/worker.js"></script>
 </body>
 </html>
