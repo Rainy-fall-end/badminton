@@ -5,36 +5,51 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f8f9fa; /* 如果图片未加载，使用这个背景颜色 */
-  background-image: url('../images/background.jpg'); /* 添加背景图片 */
-  background-size: cover; /* 让背景图片覆盖整个背景区域 */
-  background-position: center; /* 图片居中显示 */
-  background-repeat: no-repeat; /* 防止背景图片重复 */
+  background-color: #f8f9fa;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
   width: 300px;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.5); 
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
+.input-group {
+  display: flex; /* 使用Flexbox使子元素在同一行 */
+  align-items: center; /* 垂直居中对齐 */
+  margin-bottom: 10px; /* 设置每个输入组的底部间距 */
+}
+
 .time-label {
-  font-size: 18px;
-  margin-bottom: 10px;
-  display: block;
+  margin-right: 10px; /* 添加label和input之间的间距 */
+  font-size: 16px; /* 可根据需要调整字体大小 */
 }
 
 .time-input {
-  width: 100%;
   padding: 5px;
-  margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 16px; /* 可根据需要调整字体大小 */
+  flex-basis: 10px; /* 设置输入框的基础宽度 */
+  max-width: 150px; /* 设置输入框的最大宽度 */
+}
+
+
+.time-range-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .time-range {
   font-size: 16px;
   margin-bottom: 5px;
+  flex: 1 1 45%;
+  text-align: center;
 }

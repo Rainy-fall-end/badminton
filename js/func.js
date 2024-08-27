@@ -1,5 +1,4 @@
 console.log("begin")
-
 function getButtonsByClass(className) {
     return $('button.' + className);
 }
@@ -15,27 +14,34 @@ function getDivByClass(className) {
 function getLabelByClass(className) {
     return  $('label.' + className);
 }
-
-function selectTime(time)
+ 
+function selectTime(time,location)
 {
     // 12->17-18
     // 13->18-19
     // 14->19-20
     // 15->20-21
-    var query = "#apointmentDetails > div.lists > div.chart > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(1) > div > div.inner-seat-wrapper.clearfix > div:nth-child("+time+")";
+    var time_ = parseInt(time, 10) - 5;
+    var query = "#apointmentDetails > div.lists > div.chart > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(1) > div > div.inner-seat-wrapper.clearfix > div:nth-child("+ time_+")";
     var divElement = document.querySelector(query);
-    console.log(query);
-    console.log(divElement);
+    var location_ = parseInt(location, 10)-1;
+    console.log("location");
+    console.log(location_)
     if (divElement) {
-        var unselectedSeats = divElement.querySelectorAll(".inner-seat.unselected-seat"); 
+        var unselectedSeats = divElement.querySelectorAll(".inner-seat.unselected-seat");
+        if (unselectedSeats.length <=  location_)
+        {
+            location_ = 0;
+        }
         if (unselectedSeats.length > 0) {
-            unselectedSeats[0].click();
+            console.log(unselectedSeats);
+            unselectedSeats[location_].click();
         } else {
             console.log("在获取的div元素下没有找到class为inner-seat unselected-seat的子元素。");
         }
     } else {
         console.log("未找到指定的div元素。");
-        selectTime(time-2)
+        selectTime(time-2,1)
     }
 }
 
