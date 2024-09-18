@@ -13,6 +13,7 @@
 ## 1.环境准备：
 ### 下载并安装谷歌浏览器：
 [下载并安装 Google Chrome](https://support.google.com/chrome/answer/95346?hl=zh-)(需要VPN，如果你没有VPN，可以通过我的服务器下载：[Chrome 安装包](http://lc-JBwIbAN4.cn-n1.lcfile.com/PhAeKSsvI2Pnyp9v443DUz2497bFhzwz/ChromeSetup.exe))
+你也可以选择使用Edge浏览器，或者任意一款以chrome为内核的浏览器
 ### 打开开发者模式：
 [谷歌浏览器如何打开开发者模式](https://www.chromegw.com/guide/jq/1461.html)
 [Edge浏览器如何打开开发者模式](https://blog.csdn.net/yisago/article/details/118754062)
