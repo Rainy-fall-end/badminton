@@ -1,4 +1,4 @@
-console.log("begin")
+
 function getButtonsByClass(className) {
     return $('button.' + className);
 }
@@ -55,8 +55,6 @@ function selectDate()
     // 构建id选择器以获取对应日期的div元素
     var tabElement = document.getElementById("tab-"+formattedDate);
     var flag = 1;
-    console.log("table")
-    console.log(tabElement)
     if(tabElement!=null)
     {
         tabElement.click();
