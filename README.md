@@ -1,4 +1,5 @@
 # badminton
+!!!免费开源软件，禁止谋利
 使用[谷歌插件](https://support.google.com/chrome/a/answer/2714278?hl=zh-Hans)开发的羽毛球抢场助手，针对[同济大学体育场馆预约系统](https://stadium.tongji.edu.cn/pc/#/)，适用浏览器：以chrome作为内核的浏览器，如Chrome，Edge
 
 安装视频教程：
@@ -29,7 +30,7 @@
 
 ![](https://github.com/Rainy-fall-end/badminton/blob/main/pics/click_exten.png)
 
-配置想抢的时间(所有时间都支持，比如早上9-10可以输入4)：
+配置想抢的时间(所有时间都支持)：
 
 ![](https://github.com/Rainy-fall-end/badminton/blob/main/pics/set_time.png)
 ## 4.使用说明：
