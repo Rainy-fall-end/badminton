@@ -23,7 +23,11 @@
 [Edge浏览器如何打开开发者模式](https://blog.csdn.net/yisago/article/details/118754062)
 ## 2.插件安装：
 下载插件，无需解压，将压缩包拖至刚才打开开发者模式的界面（如下），即可进行安装
+
 ![](http://lc-JBwIbAN4.cn-n1.lcfile.com/S2tysi1LwscGbBqNkVSAHSGOjntvV8pQ/1.png)
+
+如果你安装失败，考虑解压后再安装，将文件夹**badminton**拖入即可，保证有以下文件：
+![](https://github.com/Rainy-fall-end/badminton/blob/main/pics/extension.png)
 ## 3.配置插件：
 在输入url的右侧，点击扩展程序，打开所有的扩展程序栏：
 
