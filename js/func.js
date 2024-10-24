@@ -29,7 +29,7 @@ function reloadUrl(){
     }, millisTillNextHour);
     setTimeout(function(){
         location.reload();
-    },5000);
+    },500000);
 }
 
 function selectTime(time,location)
@@ -44,8 +44,10 @@ function selectTime(time,location)
     var location_ = parseInt(location, 10)-1;
     console.log("location");
     console.log(location_)
+    divElement = divElement.slice(0, 4);
     if (divElement) {
         var unselectedSeats = divElement.querySelectorAll(".inner-seat.unselected-seat");
+        console.log(divElement);
         if (unselectedSeats.length <=  location_)
         {
             location_ = 0;

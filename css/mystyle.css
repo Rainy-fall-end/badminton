@@ -22,23 +22,22 @@ body {
 }
 
 .input-group {
-  display: flex; /* 使用Flexbox使子元素在同一行 */
-  align-items: center; /* 垂直居中对齐 */
-  margin-bottom: 10px; /* 设置每个输入组的底部间距 */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .time-label {
-  margin-right: 10px; /* 添加label和input之间的间距 */
-  font-size: 16px; /* 可根据需要调整字体大小 */
+  margin-right: 10px;
+  font-size: 16px;
 }
 
 .time-input {
   padding: 5px;
-  font-size: 16px; /* 可根据需要调整字体大小 */
-  flex-basis: 10px; /* 设置输入框的基础宽度 */
-  max-width: 150px; /* 设置输入框的最大宽度 */
+  font-size: 16px;
+  flex-basis: 10px;
+  max-width: 150px;
 }
-
 
 .time-range-container {
   display: flex;
@@ -52,4 +51,22 @@ body {
   margin-bottom: 5px;
   flex: 1 1 45%;
   text-align: center;
+}
+
+#togglePlugin {
+  background-color: transparent; 
+  color: black;
+  border: 1px solid #ccc;
+}
+
+/* 插件开启时的样式 */
+#togglePlugin.enabled {
+  background-color: blue;
+  color: white;
+}
+
+/* 插件关闭时的样式 */
+#togglePlugin.disabled {
+  background-color: rgba(200, 200, 200, 0.3); /* 浅灰色，透明度30% */
+  color: black;
 }
