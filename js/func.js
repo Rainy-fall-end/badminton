@@ -29,7 +29,7 @@ function reloadUrl(){
     }, millisTillNextHour);
     setTimeout(function(){
         location.reload();
-    },500000);
+    },5000);
 }
 
 function selectTime(time,location)
