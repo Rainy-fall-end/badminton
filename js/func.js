@@ -44,8 +44,13 @@ function selectTime(time,location)
     var location_ = parseInt(location, 10)-1;
     console.log("location");
     console.log(location_)
+    let seats = divElement.querySelectorAll('.seat');
+    divElement = Array.from(seats).slice(0, 4);
+    console.log("divElement");
+    console.log(divElement);
     if (divElement) {
-        var unselectedSeats = divElement.querySelectorAll(".inner-seat.unselected-seat");
+        let unselectedSeats = divElement.flatMap(seat => Array.from(seat.querySelectorAll(".inner-seat.unselected-seat")));
+        console.log(divElement);
         if (unselectedSeats.length <=  location_)
         {
             location_ = 0;
